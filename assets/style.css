@@ -1,0 +1,31 @@
+/* Fonts */
+.thin { font-family: 'Titillium Web', sans-serif; font-weight: 300; }
+
+input, 
+body { font-family: 'Titillium Web', sans-serif; font-weight: 400; }
+strong { font-family: 'Titillium Web', sans-serif; font-weight: 700; }
+
+body { color: #000; font-size: 18px; line-height:27px; background: #fff; margin: 0; }
+
+h1 { font-size: 60px; font-weight: 300; display: block; } 
+h2 { font-size: 49px; font-weight: 300; display: block; } 
+h3 { font-size: 36px; font-weight: 300; display: block; } 
+h4 { font-size: 30px; font-weight: 300; display: block; } 
+h5 { font-size: 26px; font-weight: 300; display: block; }
+h6 { font-size: 22px; font-weight: 700; display: block; }
+.h7 { font-size: 19px; font-weight: 700; display: block; }
+
+.highlight { color: #1ac6ff; } 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 { margin-top: 20px; margin-bottom: 20px; }
+h5, .h5, h6, .h6, .h7 { margin-top: 20px; margin-bottom: 10px; }
+
+p { font-size: 18px; line-height: 29px; color: #1D1D1D; }
+small { font-weight: 300; font-size: 15px; line-height: 26px; }
+
+a { color: #1ac6ff; text-decoration: none; }
+a:hover, a:active, a:focus { color: #1ac6ff; text-decoration: none; outline: none; }
+::selection { background-color: #1ac6ff; color: #fff; }
+
+hr { width: 100%; border-top: 1px solid #E9E9E9; display: inline-block; }
+
+.img-responsive-full { max-width: 100%; width: 100%; }
