@@ -1,0 +1,51 @@
+.modal-dialog
+    padding-top: 20px
+    
+
+    +breakpoint(sm)
+        padding-top: 50px
+        
+    +breakpoint(md)
+        padding-top: 100px
+
+
+.modal-content
+    +border-radius(0px)
+    +box-shadow(none)
+    background-color: $salmon
+    border: solid 0px transparent
+
+    .modal-header
+        text-transform: uppercase
+        text-align: center
+        +font-size(26)
+        border-bottom: 0px solid transparent
+
+        h4
+            margin-top: 20px
+
+            +breakpoint(sm)
+                margin-top: 40px
+
+        hr
+            width: 100px
+            margin-top: 10px
+            margin-bottom: 10px
+
+            +breakpoint(sm)
+                margin-top: 20px
+                margin-bottom: 20px
+
+.modal-body
+    padding: 0 30px 20px 30px
+
+    +breakpoint(sm)
+        padding: 0 40px 20px 40px
+
+    p
+        text-align: center
+    img
+        display: block
+        max-width: 100%
+        margin: 0 auto
+        margin-bottom: 15px

@@ -1,0 +1,261 @@
+.home
+    background-color: rgba(50, 50 ,50, 0.8)
+
+    img
+        width: 125px
+        height: 125px
+        display: block
+        margin: 0 auto
+        margin-top: 20px
+
+        +breakpoint(sm)
+            margin-top: 100px
+
+    .home-title
+        margin-bottom: 20px
+        font-family: $sans
+        font-weight: 700
+        text-align: center
+        +font-size(18)
+        +line-height(26)
+
+        +breakpoint(sm)
+            text-align: left
+            +font-size(24)
+            +line-height(30)
+            letter-spacing: 0.04em
+
+        +breakpoint(md)
+            +font-size(28)
+            +line-height(34)
+            letter-spacing: 0.04em
+
+        +breakpoint(lg)
+            +font-size(32)
+            +line-height(38)
+            letter-spacing: 0.1em
+
+    p
+        margin: 0
+        padding: 0
+
+    h1
+        margin: 0
+        margin-top: 20px
+
+        +breakpoint(sm)
+            margin-top: 50px
+
+    a
+        border-bottom: solid 2px #fff
+
+.slide-1
+    background-color: rgba(26, 188, 156, 1.0)
+    
+    img
+        border: solid 2px darken($cyan, 4%)
+
+    .team-bio
+        margin-top: 10px
+        height: auto
+        border: solid 2px darken($cyan, 8%)
+        background-color: darken($cyan, 5%)
+
+        p
+            text-align: center
+            padding: 15px
+            margin-bottom: 0
+
+        +breakpoint(sm)
+            margin-top: 50px
+
+    .team-overlay
+        position: absolute
+        top: 0
+        left: 15px
+        right: 15px
+        height: 100%
+        background-color: rgba(60, 60, 60, 0.8)
+
+        .social
+            margin-top: 25px
+
+            +breakpoint(md)
+                margin-top: 40px
+            +breakpoint(lg)
+                margin-top: 70px
+
+
+        hr
+            width: 20%
+            margin: 10px auto
+            border-top: 2px solid #eee
+
+        ul
+            padding: 0
+            text-align: center
+
+        li
+            display: inline-block
+            margin: 0
+
+            a
+                width: 30px
+                height: 30px
+                padding-top: 5px
+                display: block
+                +transition(all, 400ms)
+                +font-size(20)
+                +line-height(22)
+
+
+                &:hover
+                    background-color: $cyan
+                    color: #fff
+
+                +breakpoint(md)
+                    padding-top: 10px
+                    width: 50px
+                    height: 50px
+                    +font-size(28)
+                    +line-height(34)
+
+
+        .team-title,
+        .team-name
+            display: block
+            width: 100%
+            text-align: center
+            font-family: $sans
+            +font-size(10)
+            text-transform: uppercase
+            letter-spacing: 2px
+            font-weight: 700
+
+            +breakpoint(md)
+                +font-size(14)
+
+.slide-2
+    background-color: rgba(60, 60, 60, 1)
+    
+    h2
+        margin-bottom: 15px
+    ul
+        text-align: center
+        margin-bottom: 30px
+
+        li
+            display: inline-block
+            list-style: none
+            background-color: #fff
+            color: $salmon
+            padding: 5px 9px
+            margin: 0 5px
+            text-transform: uppercase
+            letter-spacing: 1px
+            +font-size(12)
+            +transition
+            border: solid 3px #fff
+
+            &:hover
+                cursor: pointer
+                background-color: transparent
+                color: #fff
+
+    .portfolio-item-overlay
+        z-index: 5
+        position: absolute
+        left: 0
+        right: 0
+        margin-left: auto
+        margin-right: auto
+        background-color: $salmon
+        cursor: pointer
+        width: 100%
+        height: 100%
+        max-width: 158px
+        max-height: 158px
+
+        +breakpoint(md)
+            max-height: 213px
+            max-width: 213px
+
+        i
+            display: block
+            +font-size(72)
+            +line-height(150)
+            color: #fff
+            text-align: center
+
+            +breakpoint(md)
+                +line-height(200)
+
+    .carousel
+        max-height: 300px
+        margin-bottom: 20px
+
+        +breakpoint(sm)
+            margin-bottom: 30px
+
+        img
+            display: block
+            margin: 0 auto
+
+        &:hover
+            cursor: pointer
+
+    #Grid
+        .mix
+            opacity: 0
+            display: none
+
+.slide-3
+    background-color: #333
+
+    h2
+        color: #f7f7f7
+        +font-size(30)
+
+
+    img
+        height: 80px
+        width: 80px
+        display: block
+        margin: 0 auto
+
+    .sponsor-row
+        margin-bottom: 20px
+        padding: 30px 0
+        background-color: #eaeaea
+
+        +transition(all, 300s)
+
+        img
+            width: 100%
+            height: auto
+            display: block
+            margin: 0 auto
+            +filter(grayscale(100%))
+
+            &:hover
+                +filter(grayscale(0))
+
+        +breakpoint(sm)
+            margin-bottom: 50px
+
+    blockquote
+        border: solid 0px transparent
+        font-family: $lato
+        letter-spacing: 2px
+        +font-size(12)
+
+    .tech-slogan
+        text-align: center
+        text-transform: uppercase
+        +font-size(14)
+        +line-height(22)
+
+.slide
+    img
+        max-width: 100%
+

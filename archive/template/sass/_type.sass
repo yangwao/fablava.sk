@@ -1,0 +1,83 @@
+$cyan: #1ABC9C
+$salmon: #e74c3c
+$orange: #e67e22
+$yellow: #f1c40f
+$navy: #34495e
+
+$sans: 'Raleway', sans-serif
+$cursive: 'Pacifico', cursive
+$lato: 'Lato', sans-serif
+
+[class*="entypo-"]:before
+    font-family: 'entypo', sans-serif
+
+i
+    font-style: normal
+
+body,
+button,
+input,
+select,
+textarea
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    color: #fff
+
+p
+    margin-bottom: 30px
+    font-family: $lato
+    letter-spacing: 2px
+    +font-size(16)
+    +line-height(20)
+
+    +breakpoint(sm)
+        +font-size(18)
+        +line-height(22)
+
+    +breakpoint(md)
+        +font-size(20)
+        +line-height(26)
+a
+    text-decoration: none
+    color: #fff
+    +transition(all, 300ms)
+
+    &:hover
+        color: $yellow
+        text-decoration: none
+
+h2
+    margin-top: 20px
+    margin-bottom: 10px
+    text-align: center
+    font-weight: 700
+    text-transform: uppercase
+    +font-size(30)
+    font-family: $sans
+    letter-spacing: 0.04em
+
+    +breakpoint(sm)
+        width: 300px
+        border: solid 4px #fff
+        padding: 10px
+        margin: 0 auto
+        margin-top: 25px
+        margin-bottom: 30px
+        +font-size(36)
+
+
+h3
+    +font-size(26)
+    font-family: $sans
+
+b
+    font-weight: 700
+
+ul,
+ol
+    margin-bottom: 20px
+    padding-left: 20px
+    +font-size(16)
+
+    li
+        margin: 5px 0

@@ -1,0 +1,7 @@
+/* Fonts */
+.thin { font-family: 'Titillium Web', sans-serif; font-weight: 300; }
+
+input, 
+body { font-family: 'Titillium Web', sans-serif; font-weight: 400; }
+strong { font-family: 'Titillium Web', sans-serif; font-weight: 700; }
+
